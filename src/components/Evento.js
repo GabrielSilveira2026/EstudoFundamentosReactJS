@@ -1,13 +1,15 @@
-export default function Evento({numero}) {
+import Button from "./evento/Button";
+
+export default function Evento() {
 
     function meuEvento() {
-        console.log(`Ativou ${numero}`);
+        console.log(`Ativou primeiro evento`);
     }
 
     return (
         <div>
-            <p>Clique para ativar o evento {numero}</p>
-            <button onClick={meuEvento}>Ativar</button>
+            <p>Clique para ativar o evento</p>
+            <Button event={meuEvento} text="primeiro evento"/>
         </div>
     )
 }
