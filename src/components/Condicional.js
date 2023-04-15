@@ -12,7 +12,7 @@ export default function Condicional() {
     function limparEmail(e) {
         setUserEmail("")
     }
-
+ 
     return (
         <div>
             <h2>Cadastre o seu e-mail</h2>
