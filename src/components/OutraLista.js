@@ -7,11 +7,11 @@ function OutraLista({itens}) {
 
         {
             itens.length > 0 ?
-            itens.map((item, index) => (
-                <p key={index} >{item}</p>
-            ))
+                itens.map((item, index) => (
+                    <p key={index} >{item}</p>
+                ))
             :
-            <p>Não há itens nesta lista</p>
+                <p>Não há itens nesta lista</p>
         }
     </>
   )
