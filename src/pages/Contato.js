@@ -4,7 +4,7 @@ function Contato() {
   return (
     <div>
         <h1>Contato</h1>
-        <p>Conteudo da pagina <h2>Contato!</h2></p>
+        <p>Conteudo da pagina Contato!</p>
     </div>
   )
 }
