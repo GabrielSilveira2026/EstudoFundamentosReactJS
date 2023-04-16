@@ -1,6 +1,21 @@
 .footer {
     justify-content: center;
-    display: flex;
     background-color: rgb(189, 142, 255);
     padding: 10px;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social_list li {
+    margin:0 1em
+}
+
+.social_list svg {
+    font-size: 1.5em;
+    cursor: pointer
 }
