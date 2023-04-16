@@ -19,7 +19,7 @@ function Empresa() {
 
         {
           lista.length > 0 &&
-          <div style={{margin:'auto', width:'50%'}}>
+          <div style={{margin:'auto'}}>
             {
               lista.map((jogo) => (
                 <div style={{backgroundColor:'pink',marginBottom:'25px'}}>
