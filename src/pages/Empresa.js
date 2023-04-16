@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import axios from 'axios'
+import axios from 'axios';
+import React, { useState } from 'react';
 
 function Empresa() {
   const [lista, setLista] = useState([])
@@ -25,6 +25,7 @@ function Empresa() {
                 <div style={{backgroundColor:'pink',marginBottom:'25px'}}>
                   <img style={{width:'100%'}} src={jogo.imagem}/>
                   <p style={{margin:0}} key={jogo.id} ><a href={`https://store.steampowered.com/app/${jogo.id_jogo_steam}`} target="_blank">{jogo.nome} - {jogo.preco}</a></p>
+                  {jogo.requisitosminimos}
                 </div>
               ))
             }
